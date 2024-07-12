@@ -21,8 +21,8 @@ html, body {
     font-size: 40px;
 }
 .header img {
-    max-width: 210px;
-    max-height: 210px;
+    max-width: 140px;
+    max-height: 140px;
     border-radius: 100%;
 }
 .tagline {
