@@ -1,2 +1,2 @@
-# Portfolio-Homepage
-A website dedicated to Amazing projects I've made and Currently working on!
+#Mandar Wagh's Portfolio
+Welcome to my portfolio! This website showcases my skills as a software developer through a minimalist design. It features a centered name in bold Apple font, a grid layout showcasing my projects with descriptions, and direct links to GitHub and LinkedIn. The site is optimized for performance and responsiveness, ensuring a smooth user experience. The email button opens Gmail directly. Explore my work and connect with me to discuss collaborations!
