@@ -233,7 +233,7 @@ html, body {
     padding: 20px;
     background-color: ##f3f3f3;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
 .blog-post h3 {
