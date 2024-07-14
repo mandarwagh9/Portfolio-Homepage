@@ -9,7 +9,7 @@
 
 .back-button {
     position: absolute;
-    top: 20px;
+    top: -170px;
     left: 20px;
     font-size: 14px;
     padding: 5px 10px;
@@ -27,7 +27,7 @@
 
 .blog-header {
     text-align: center;
-    margin-top: 60px;
+    margin-top: -150px;
     margin-bottom: 30px;
 }
 
