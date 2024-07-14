@@ -270,3 +270,24 @@ html, body {
     border-radius: 5px;
     text-decoration: none;
 }
+/* Add this to your existing CSS */
+
+/* Made by Mandar Section */
+.made-by {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #007acc;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.made-by a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.made-by a:hover {
+    text-decoration: underline;
+}
