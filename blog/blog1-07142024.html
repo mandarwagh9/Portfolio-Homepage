@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Run Stable Diffusion Locally - Mandar Wagh</title>
+    <link rel="icon" type="image/x-icon" href="https://github.com/mandarwagh9/Portfolio-Homepage/raw/main/thumbnails/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/blog/blog-styles.css">
+</head>
+<body>
+    <a target="_blank" rel="noopener" href="https://linkedin.com/in/mandar-wagh-6b0865305" class="circle-icon">
+        <img src="https://github.com/mandarwagh9/Portfolio-Homepage/raw/main/thumbnails/linkedin.png" alt="LinkedIn">
+    </a>
+    
+    <a target="_blank" rel="noopener" href="https://github.com/mandarwagh9" class="circle-icon">
+        <img src="https://github.com/mandarwagh9/Portfolio-Homepage/raw/main/thumbnails/github.png" alt="GitHub">
+    </a>
+
+    <div class="blog-container">
+        <a href="../index.html" class="back-button">← Home</a>
+        <div class="blog-header">
+            <h1 class="blog-title">How to Run Stable Diffusion Locally</h1>
+            <div class="blog-meta">
+                <span class="blog-date">July 15, 2024</span>
+                <span class="blog-author">by Mandar Wagh</span>
+            </div>
+        </div>
+        
+        <div class="blog-content">
+            <img src="https://github.com/mandarwagh9/Portfolio-Homepage/raw/maieenshot.png" alt="n/thumbnails-blog/scrStable Diffusion Example" class="blog-image">
+            
+            <h2>Introduction</h2>
+            <p>Stable Diffusion is a powerful AI model that can generate images from text descriptions. Running it locally on your computer gives you the freedom to experiment with various inputs and even fine-tune the model. This guide will walk you through the process step-by-step.</p>
+            
+            <p><strong>Important Note:</strong> You'll need a GPU (graphics card) in your computer to run Stable Diffusion effectively. The process won't work well without one.</p>
+            
+            <h2>Step 1: Install Python and Git</h2>
+            <h3>Python Installation:</h3>
+            <ul>
+                <li>Download Python 3.10.6 or later from python.org.</li>
+                <li>During installation, make sure to check the box that says "Add Python to PATH".</li>
+                <li>To verify the installation:
+                    <ol>
+                        <li>Open Command Prompt (Windows) or Terminal (Mac/Linux)</li>
+                        <li>Type <code>python --version</code> and press Enter</li>
+                        <li>You should see the Python version number</li>
+                    </ol>
+                </li>
+            </ul>
+            
+            <h3>Git Installation:</h3>
+            <ul>
+                <li>Download Git from git-scm.com.</li>
+                <li>Follow the installation prompts, accepting the default options if you're unsure.</li>
+                <li>To verify the installation:
+                    <ol>
+                        <li>Open Command Prompt or Terminal</li>
+                        <li>Type <code>git --version</code> and press Enter</li>
+                        <li>You should see the Git version number</li>
+                    </ol>
+                </li>
+            </ul>
+            
+            <h2>Step 2: Create Necessary Accounts</h2>
+            <h3>GitHub Account:</h3>
+            <ul>
+                <li>Go to github.com and click "Sign up".</li>
+                <li>Follow the prompts to create your account.</li>
+            </ul>
+            <h3>Hugging Face Account:</h3>
+            <ul>
+                <li>Visit huggingface.co and click "Sign Up".</li>
+                <li>Complete the registration process.</li>
+            </ul>
+
+            <h2>Step 3: Download Stable Diffusion Web UI</h2>
+            <ol>
+                <li>Create a new folder on your computer where you want to store Stable Diffusion.</li>
+                <li>Open Command Prompt or Terminal and navigate to this folder:
+                    <pre><code>cd path/to/your/new/folder</code></pre>
+                </li>
+                <li>Clone the Stable Diffusion Web UI repository:
+                    <pre><code>git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git</code></pre>
+                </li>
+            </ol>
+
+            <h2>Step 4: Download the Stable Diffusion Model</h2>
+            <ol>
+                <li>Log in to your Hugging Face account.</li>
+                <li>Search for "Stable Diffusion" and choose a model version (e.g., v1.5).</li>
+                <li>Download the model file (it will be large, around 4-7 GB).</li>
+                <li>Once downloaded, move the file to this location in your Stable Diffusion folder:
+                    <pre><code>stable-diffusion-webui/models/Stable-diffusion/</code></pre>
+                </li>
+            </ol>
+
+            <h2>Step 5: Set Up the Web UI</h2>
+            <ol>
+                <li>Open Command Prompt or Terminal.</li>
+                <li>Navigate to the stable-diffusion-webui folder:
+                    <pre><code>cd path/to/stable-diffusion-webui</code></pre>
+                </li>
+                <li>Run the setup script:
+                    <ul>
+                        <li>On Windows: <pre><code>webui-user.bat</code></pre></li>
+                        <li>On Mac/Linux: <pre><code>./webui.sh</code></pre></li>
+                    </ul>
+                </li>
+            </ol>
+
+            <h2>Step 6: Run Stable Diffusion</h2>
+            <ol>
+                <li>After the setup finishes, you'll see a URL in the Command Prompt/Terminal:
+                    <pre><code>Running on local URL:  http://127.0.0.1:7860</code></pre>
+                </li>
+                <li>Copy this URL and paste it into your web browser.</li>
+                <li>The Stable Diffusion Web UI should now load in your browser.</li>
+            </ol>
+            
+            <h2>Using Stable Diffusion</h2>
+            <ul>
+                <li>In the main text box, type a description of the image you want to generate.</li>
+                <li>Click the "Generate" button.</li>
+                <li>After a short wait, your AI-generated image will appear!</li>
+            </ul>
+            
+            <h2>Tips:</h2>
+            <ul>
+                <li>Be as descriptive as possible in your text prompts for better results.</li>
+                <li>Experiment with different settings like image size and sampling steps.</li>
+                <li>Keep the Command Prompt/Terminal window open while using Stable Diffusion.</li>
+            </ul>
+            
+            <h2>Troubleshooting:</h2>
+            <ul>
+                <li>If you encounter errors, make sure all software (Python, Git) is up to date.</li>
+                <li>Check that your GPU drivers are current.</li>
+                <li>Consult the Stable Diffusion community forums for specific issues.</li>
+            </ul>
+            
+            <p>Remember, running AI models locally can be resource-intensive. Make sure your computer has adequate cooling, especially during long generation sessions.</p>
+        </div>
+        
+        <div class="blog-footer">
+            <a href="/blog.html" class="button-style-blog">Back to All Posts</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="logo-header">Do you have something in mind? Get in touch!</div>
+        <div class="get-in-touch">
+            <a href="https://x.com/waghweb" target="_blank" rel="noopener" class="button-style-blog">
+                <img src="https://github.com/mandarwagh9/Portfolio-Homepage/raw/main/thumbnails/x.png" class="button-icon" alt="X">X.com
+            </a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mandarwagh90@gmail.com" target="_blank" rel="noopener" class="button-style-alt">
+                <img src="https://github.com/mandarwagh9/Portfolio-Homepage/raw/main/thumbnails/mail.png" class="button-icon" alt="Email">Gmail
+            </a>
+        </div>
+    </div>
+</body>
+</html>
