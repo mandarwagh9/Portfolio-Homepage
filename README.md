@@ -40,5 +40,5 @@ If you have any questions or would like to collaborate, don't hesitate to get in
 
 ---
 
-@made by [Mandar Wagh](https://linkedin.com/in/mandar-wagh-6b0865305)
+@made by [Mandar Wagh]((https://x.com/waghweb))
 
