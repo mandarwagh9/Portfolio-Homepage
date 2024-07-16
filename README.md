@@ -38,8 +38,6 @@ Feel free to reach out to me through the following platforms:
 
 If you have any questions or would like to collaborate, don't hesitate to get in touch!
 
-
-
 ---
 
 @made by [Mandar Wagh]((https://x.com/waghweb))
