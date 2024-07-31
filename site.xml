@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<website>
+    <header>
+        <title>Mandar Wagh - Portfolio</title>
+        <url>https://www.mandar.fun/</url>
+        <description>Mandar Wagh's personal portfolio showcasing skills, projects, and contact information.</description>
+    </header>
+    <about>
+        <name>Mandar Wagh</name>
+        <location>India</location>
+        <profession>Software Developer and Technology Enthusiast</profession>
+    </about>
+    <links>
+        <link>
+            <name>GitHub</name>
+            <url>https://github.com/mandarwagh9</url>
+        </link>
+        <link>
+            <name>LinkedIn</name>
+            <url>https://www.linkedin.com/in/mandar-wagh</url>
+        </link>
+    </links>
+    <projects>
+        <project>
+            <name>Rank Predictor MHT-CET</name>
+            <description>Analyze MHT-CET ranks using historical data and predictive algorithms.</description>
+            <repository>https://github.com/mandarwagh9/Rank-Predictor-MHT-CET-analyse</repository>
+        </project>
+        <project>
+            <name>Space Search Engine V2</name>
+            <description>A space image gallery using the NASA Images API.</description>
+            <repository>https://github.com/mandarwagh9/space-search-engine-v2</repository>
+        </project>
+    </projects>
+    <contact>
+        <email>mailto:your-email@example.com</email>
+    </contact>
+</website>
