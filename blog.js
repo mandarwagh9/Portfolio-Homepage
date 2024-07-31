@@ -3,13 +3,13 @@ const blogPosts = [
         title: "How to Run Stable Diffusion Locally",
         date: "July 14, 2024",
         snippet: "Stable Diffusion is a powerful AI model that can generate images from text descriptions",
-        link: "blog/blog1-07142024.html"
+        link: "blog/How-to-Run-Stable-Diffusion-Locally.html"
     },
     {
         title: "Predicting MHT-CET Ranks",
         date: "July 15, 2024",
         snippet: "he 'Rank-Predictor-MHT-CET' repository is a meticulously crafted tool designed to predict the ranks of students based on their MHT-CET scores.",
-        link: "blog/blog2-07152024.html"
+        link: "blog/Predicting-MHTCET-Ranks.html"
     },
     // Add more blog posts here
 ];
