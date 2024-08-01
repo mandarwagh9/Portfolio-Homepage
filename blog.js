@@ -11,6 +11,12 @@ const blogPosts = [
         snippet: "he 'Rank-Predictor-MHT-CET' repository is a meticulously crafted tool designed to predict the ranks of students based on their MHT-CET scores.",
         link: "blog/Predicting-MHTCET-Ranks.html"
     },
+    {
+        title: "NASA Image Search Engine",
+        date: "August 2, 2024",
+        snippet: " NASA Image Search Engine is a web application that allows users to search for, view, and download images from NASA's extensive image library.",
+        link: "blog/NASA-Image-Search-Engine.html"
+    },
     // Add more blog posts here
 ];
 
