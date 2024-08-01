@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Image Search Engine - Mandar Wagh</title>
+    <link rel="icon" type="image/x-icon" href="https://github.com/mandarwagh9/Portfolio-Homepage/raw/main/thumbnails/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/blog/blog-styles.css">
+</head>
+<body>
+    <a target="_blank" rel="noopener" href="https://linkedin.com/in/mandar-wagh-6b0865305" class="circle-icon">
+        <img src="https://github.com/mandarwagh9/Portfolio-Homepage/raw/main/thumbnails/linkedin.png" alt="LinkedIn">
+    </a>
+    <a target="_blank" rel="noopener" href="https://github.com/mandarwagh9" class="circle-icon">
+        <img src="https://github.com/mandarwagh9/Portfolio-Homepage/raw/main/thumbnails/github.png" alt="GitHub">
+    </a>
+
+    <div class="blog-container">
+        <a href="../index.html" class="back-button">← Home</a>
+        <div class="blog-header">
+            <h1 class="blog-title">NASA Image Search Engine</h1>
+            <div class="blog-meta">
+                <span class="blog-date">August 1, 2024</span>
+                <span class="blog-author">by Mandar Wagh</span>
+            </div>
+        </div>
+
+        <div class="blog-content">
+            <h2>Overview</h2>
+            <p>The NASA Image Search Engine is a web application that allows users to search for, view, and download images from NASA's extensive image library. The application is built using Node.js, Express, and EJS. It integrates with NASA's public API to fetch and display images based on user queries.</p>
+
+            <h2>Features</h2>
+            <ul>
+                <li><strong>Search for Images:</strong> Users can search for images using keywords.</li>
+                <li><strong>View Images:</strong> Displays images with titles and descriptions.</li>
+                <li><strong>Download Images:</strong> Option to download images directly from the web interface.</li>
+            </ul>
+
+            <h2>Live Demo</h2>
+            <p>You can view the live application at: <a href="https://nasa-image-search-engine.vercel.app" target="_blank" rel="noopener">NASA Image Search Engine</a></p>
+
+            <h2>Setup and Installation</h2>
+            <h3>Prerequisites</h3>
+            <ul>
+                <li>Node.js (>= 14.x)</li>
+                <li>npm (Node Package Manager)</li>
+            </ul>
+
+            <h3>Local Development</h3>
+            <ol>
+                <li>Clone the repository:
+                    <pre><code>git clone https://github.com/mandarwagh9/NASA-IMAGE-SEARCH-ENGINE.git</code></pre>
+                </li>
+                <li>Navigate to the project directory:
+                    <pre><code>cd NASA-IMAGE-SEARCH-ENGINE</code></pre>
+                </li>
+                <li>Install dependencies:
+                    <pre><code>npm install</code></pre>
+                </li>
+                <li>Create a .env file in the root directory with your NASA API key:
+                    <pre><code>NASA_API_KEY=your_nasa_api_key_here</code></pre>
+                </li>
+                <li>Run the application:
+                    <pre><code>node app.js</code></pre>
+                </li>
+            </ol>
+            <p>The application will be available at <a href="http://localhost:3000" target="_blank" rel="noopener">http://localhost:3000</a>.</p>
+
+            <h2>Deployment</h2>
+            <p>This application is deployed on Vercel. To deploy on Vercel, follow these steps:</p>
+            <ol>
+                <li>Install Vercel CLI:
+                    <pre><code>npm install -g vercel</code></pre>
+                </li>
+                <li>Log in to Vercel:
+                    <pre><code>vercel login</code></pre>
+                </li>
+                <li>Deploy the application:
+                    <pre><code>vercel</code></pre>
+                </li>
+            </ol>
+            <p>Follow the prompts to deploy your application.</p>
+
+            <h2>Project Structure</h2>
+            <ul>
+                <li><strong>app.js:</strong> Main application file where the server is set up and routes are defined.</li>
+                <li><strong>/views:</strong> Contains EJS templates for rendering views.</li>
+                <li><strong>/public:</strong> Contains static assets like stylesheets and images.</li>
+                <li><strong>package.json:</strong> Project metadata and dependency definitions.</li>
+                <li><strong>.env:</strong> Environment variables, including the NASA API key.</li>
+            </ul>
+
+            <h2>API Documentation</h2>
+            <p>The NASA Image Search Engine uses the <a href="https://api.nasa.gov/" target="_blank" rel="noopener">NASA Image and Video Library API</a>. You can find more details about the API <a href="https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf" target="_blank" rel="noopener">here</a>.</p>
+
+            <h2>Contributing</h2>
+            <p>Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure that your code adheres to the project's coding standards and includes appropriate tests.</p>
+
+            <h2>License</h2>
+            <p>This project is licensed under the MIT License.</p>
+        </div>
+
+        <div class="blog-footer">
+            <a href="/blog.html" class="button-style-blog">Back to All Blogs</a>
+        </div>
+    </div>
+
+    <div class="made-by">
+        <p>Built by <a href="https://github.com/mandarwagh9" target="_blank" rel="noopener">Mandar Wagh</a></p>
+    </div>
+</body>
+</html>
