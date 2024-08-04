@@ -352,11 +352,43 @@ main section {
 }
 
 footer {
-    margin-top: auto;
-    padding: 10px;
-    background-color: #222;
-    color: #fff;
-    width: 100%;
-    text-align: center;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
+
+.footer-content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-links img {
+  width: 24px; /* Adjust size as needed */
+  height: 24px; /* Adjust size as needed */
+  vertical-align: middle;
+}
+
+.footer-links a:hover img {
+  opacity: 0.8; /* Optional: adds a hover effect */
+}
+
 
