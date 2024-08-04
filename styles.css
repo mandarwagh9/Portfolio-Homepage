@@ -351,6 +351,12 @@ main section {
     margin-bottom: 20px;
 }
 
+/* Apply this to ensure footer stays at the bottom */
+body {
+  margin: 0;
+  padding-bottom: 60px; /* Adjust this value to match the height of your footer */
+}
+
 footer {
   background-color: #f1f1f1;
   text-align: center;
@@ -359,6 +365,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+
 }
 
 .footer-content {
