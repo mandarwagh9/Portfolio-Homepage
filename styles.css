@@ -341,18 +341,6 @@ body {
     margin: 0 10px;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-}
-
-nav ul li {
-    margin: 0 10px;
-}
-
 main {
     padding: 20px;
     max-width: 800px;
