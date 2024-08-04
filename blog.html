@@ -1,14 +1,39 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mandar Wagh - Blog</title>
     <link rel="icon" type="image/x-icon" href="https://github.com/mandarwagh9/Portfolio-Homepage/raw/main/thumbnails/favicon.ico">
+    <link rel="apple-touch-icon" href="https://github.com/mandarwagh9/Portfolio-Homepage/raw/main/thumbnails/favicon.ico">
+    <meta property="og:title" content="Mandar Wagh - Blog">
+    <meta property="og:description" content="Thoughts, tutorials, and insights on technology by Mandar Wagh.">
+    <meta property="og:image" content="https://github.com/mandarwagh9/Portfolio-Homepage/raw/main/thumbnails/favicon.ico">
+    <meta property="og:url" content="https://www.mandar.fun/blog.html">
+    <meta name="twitter:card" content="summary_large_image">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="blog-styles.css">
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "Mandar Wagh - Blog",
+      "url": "https://www.mandar.fun/blog.html",
+      "image": "https://github.com/mandarwagh9/Portfolio-Homepage/raw/main/thumbnails/favicon.ico",
+      "description": "Thoughts, tutorials, and insights on technology by Mandar Wagh",
+      "author": {
+        "@type": "Person",
+        "name": "Mandar Wagh"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Mandar Wagh"
+      }
+    }
+    </script>
 </head>
 <body>
     <a target="_blank" rel="noopener" href="https://linkedin.com/in/mandar-wagh-6b0865305" class="circle-icon">
@@ -41,9 +66,10 @@
     <script>
         window.onload = () => displayBlogPosts(blogPosts, blogPosts.length);
     </script>
-<div class="made-by">
-    <p>@Build by <a href="https://github.com/mandarwagh9" target="_blank" rel="noopener">Mandar</a></p>
-</div>
+
+    <div class="made-by">
+        <p>@Build by <a href="https://github.com/mandarwagh9" target="_blank" rel="noopener">Mandar</a></p>
+    </div>
 
 </body>
 </html>
