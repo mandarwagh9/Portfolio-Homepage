@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /private/
-Allow: https://github.com/mandarwagh9/Portfolio-Homepage/blob/main/thumbnails/mypic2.jpg
