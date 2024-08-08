@@ -1,22 +1,30 @@
 const blogPosts = [
     {
+        title: "NASA Image Search Engine",
+        date: "August 2, 2024",
+        snippet: " NASA Image Search Engine is a web application that allows users to search for, view, and download images from NASA's extensive image library.",
+        link: "blog/NASA-Image-Search-Engine.html"
+    },
+        {
+        title: "Predicting MHT-CET Ranks",
+        date: "July 15, 2024",
+        snippet: "Rank-Predictor-MHT-CET' repository is a meticulously crafted tool designed to predict the ranks of students based on their MHT-CET scores.",
+        link: "blog/Predicting-MHTCET-Ranks.html"
+    },
+    {
         title: "How to Run Stable Diffusion Locally",
         date: "July 14, 2024",
         snippet: "Stable Diffusion is a powerful AI model that can generate images from text descriptions",
         link: "blog/How-to-Run-Stable-Diffusion-Locally.html"
     },
     {
-        title: "Predicting MHT-CET Ranks",
-        date: "July 15, 2024",
-        snippet: "he 'Rank-Predictor-MHT-CET' repository is a meticulously crafted tool designed to predict the ranks of students based on their MHT-CET scores.",
-        link: "blog/Predicting-MHTCET-Ranks.html"
-    },
-    {
-        title: "NASA Image Search Engine",
-        date: "August 2, 2024",
-        snippet: " NASA Image Search Engine is a web application that allows users to search for, view, and download images from NASA's extensive image library.",
-        link: "blog/NASA-Image-Search-Engine.html"
-    },
+    title: "Image Segmenting using SAM2",
+    date: "August 8, 2024",
+    snippet: "Learn how to build an image segmentation application using the SAM2 model for object detection and segmentation.",
+    link: "blog/Image-Segmenting-using-SAM2.html"
+},
+
+
     // Add more blog posts here
 ];
 
