@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Segmenting using SAM2 - Mandar Wagh</title>
+    <link rel="icon" type="image/x-icon" href="https://github.com/mandarwagh9/Portfolio-Homepage/raw/main/thumbnails/favicon.ico">
+    <link rel="apple-touch-icon" href="https://github.com/mandarwagh9/Portfolio-Homepage/raw/main/thumbnails/favicon.ico">
+    <meta name="description" content="Learn how to build an image segmentation application using the SAM2 model with this guide by Mandar Wagh.">
+    <meta property="og:title" content="Image Segmenting using SAM2 - Mandar Wagh">
+    <meta property="og:description" content="Learn how to build an image segmentation application using the SAM2 model with this guide by Mandar Wagh.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/mandarwagh9/Portfolio-Homepage/main/blog/Thumbnail-blog/screenshot.png">
+    <meta property="og:url" content="https://www.mandar.fun/blog/Image-Segmenting-using-SAM2.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/blog/blog-styles.css">
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Image Segmenting using SAM2 - Mandar Wagh",
+      "image": "https://raw.githubusercontent.com/mandarwagh9/Portfolio-Homepage/main/blog/Thumbnail-blog/screenshot.png",
+      "author": {
+        "@type": "Person",
+        "name": "Mandar Wagh"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Mandar Wagh"
+      },
+      "datePublished": "2024-08-08",
+      "description": "Learn how to build an image segmentation application using the SAM2 model with this guide by Mandar Wagh.",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.mandar.fun/blog/Image-Segmenting-using-SAM2.html"
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <div class="blog-container">
+        <a href="../index.html" class="back-button">← Home</a>
+        <div class="blog-header">
+            <h1 class="blog-title">Image Segmenting using SAM2</h1>
+            <div class="blog-meta">
+                <span class="blog-date">August 8, 2024</span>
+                <span class="blog-author">by Mandar Wagh</span>
+            </div>
+        </div>
+        
+        <div class="blog-content">
+            <img src="https://raw.githubusercontent.com/mandarwagh9/Portfolio-Homepage/main/blog/Thumbnail-blog/SAM2.jpeg" class="blog-image" alt="Image Segmenting using SAM2">
+            
+            <h2>Introduction</h2>
+            <p>The SAM2 (Segment Anything Model) is a cutting-edge tool for object detection and segmentation. In this blog, I'll guide you through the process of creating an image segmentation application that uses SAM2 to perform object detection and segmentation on uploaded images.</p>
+            
+            <h2>Features</h2>
+            <ul>
+                <li><strong>Image Upload:</strong> Users can upload images for processing.</li>
+                <li><strong>Segmentation:</strong> The SAM2 model segments objects within the uploaded image.</li>
+                <li><strong>Results:</strong> Segmented masks and a combined mask of the image are displayed.</li>
+            </ul>
+            
+            <h2>Getting Started</h2>
+            <h3>Prerequisites</h3>
+            <ul>
+                <li>Python 3.6 or later</li>
+                <li>Flask</li>
+                <li>Replicate Python Client</li>
+            </ul>
+            
+            <h3>Installation</h3>
+            <ol>
+                <li>Clone the Repository:
+                    <pre><code>git clone https://github.com/mandarwagh9/Image-segmenting-using-SAM2.git
+cd Image-segmenting-using-SAM2</code></pre>
+                </li>
+                <li>Install Dependencies:
+                    <ol>
+                        <li>Create a virtual environment and activate it:
+                            <pre><code>python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`</code></pre>
+                        </li>
+                        <li>Install the required packages:
+                            <pre><code>pip install -r requirements.txt</code></pre>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+            
+            <h3>Set Up Environment Variables</h3>
+            <p>Create a <code>.env</code> file in the project root and add your Replicate API token:</p>
+            <pre><code>REPLICATE_API_TOKEN=your_replicate_api_token_here</code></pre>
+            
+            <h2>Running the Application</h2>
+            <h3>Start the Flask Server</h3>
+            <pre><code>python app.py</code></pre>
+            
+            <h3>Access the Application</h3>
+            <p>Open a web browser and navigate to <a href="http://127.0.0.1:5000/" target="_blank" rel="noopener">http://127.0.0.1:5000/</a> to access the application.</p>
+            
+            <h2>Usage</h2>
+            <ol>
+                <li>Navigate to the Application</li>
+                <li>Upload an Image
+                    <p>Use the upload form to select and upload an image. Ensure the image is in one of the allowed formats: PNG, JPG, JPEG, or GIF, and has been uploaded to an image hosting site so that you can provide a link in the <code>app.py</code> for further processing.</p>
+                </li>
+                <li>View Results
+                    <p>After uploading, the application will process the image using the SAM2 model and display the segmentation results, including combined and individual masks in your terminal.</p>
+                </li>
+            </ol>
+            
+            <h2>File Structure</h2>
+            <ul>
+                <li><code>app.py</code>: Main Flask application file.</li>
+                <li><code>templates/</code>: Directory containing HTML templates for the web pages.</li>
+                <li><code>uploads/</code>: Directory for storing uploaded images.</li>
+                <li><code>requirements.txt</code>: File listing the Python dependencies.</li>
+            </ul>
+            
+            <h2>Contributing</h2>
+            <p>Feel free to fork the repository and submit pull requests. For any issues or feature requests, please open an issue on GitHub.</p>
+            
+            <h2>License</h2>
+            <p>This project is licensed under the MIT License. See the LICENSE file for details.</p>
+            
+            <h2>Acknowledgements</h2>
+            <p>Special thanks to Replicate for providing the SAM2 model and to Flask for the web framework.</p>
+        </div>
+        
+        <div class="blog-footer">
+            <a href="/blog.html" class="button-style-blog">Back to All Blogs</a>
+        </div>
+    </div>
+    <div class="made-by">
+        <p>Built by <a href="https://github.com/mandarwagh9" target="_blank" rel="noopener">Mandar Wagh</a></p>
+    </div>
+
+</body>
+</html>
