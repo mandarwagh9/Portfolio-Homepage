@@ -1,5 +1,11 @@
 const blogPosts = [
     {
+        title: "Image Segmenting using SAM2",
+        date: "August 8, 2024",
+        snippet: "Learn how to build an image segmentation application using the SAM2 model for object detection and segmentation.",
+        link: "blog/Image-Segmenting-using-SAM2.html"
+    },
+    {
         title: "NASA Image Search Engine",
         date: "August 2, 2024",
         snippet: " NASA Image Search Engine is a web application that allows users to search for, view, and download images from NASA's extensive image library.",
@@ -17,12 +23,7 @@ const blogPosts = [
         snippet: "Stable Diffusion is a powerful AI model that can generate images from text descriptions",
         link: "blog/How-to-Run-Stable-Diffusion-Locally.html"
     },
-    {
-    title: "Image Segmenting using SAM2",
-    date: "August 8, 2024",
-    snippet: "Learn how to build an image segmentation application using the SAM2 model for object detection and segmentation.",
-    link: "blog/Image-Segmenting-using-SAM2.html"
-},
+
 
 
     // Add more blog posts here
