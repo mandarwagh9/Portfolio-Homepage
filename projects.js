@@ -2,12 +2,6 @@
 
 const projects = [
     {
-        "title": "Vadapav Mov Link Scraper",
-        "desc": "The Vadapav.Mov Link Scraper is a Python-based tool designed to scrape and extract movie links from the website with just a link and save it to .txt file.",
-        "img": "https://github.com/mandarwagh9/Portfolio-Homepage/raw/main/thumbnails/VMPS.PNG",
-        "link": "https://github.com/mandarwagh9/vadapav-mov-link-scrape"
-    },
-    {
         "title": "IMAGE SEGMENTING USING SAM2",
         "desc": "An application that utilizes the SAM2 model for object detection and segmentation on uploaded images.",
         "img": "https://github.com/mandarwagh9/Portfolio-Homepage/raw/main/thumbnails/sam2.PNG",
